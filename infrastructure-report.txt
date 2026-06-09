@@ -1,0 +1,23 @@
+Terraform Infrastructure Lab
+
+Environment: Production
+
+Infrastructure Summary
+
+Web Servers: 4
+Application Servers: 4
+Database Servers: 2
+
+Architecture:
+
+Internet
+   |
+Load Balancer
+   |
+Web Tier
+   |
+Application Tier
+   |
+Database Tier
+
+Status: Provisioned by Terraform
